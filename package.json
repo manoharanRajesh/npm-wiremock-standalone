@@ -1,0 +1,15 @@
+{
+  "name": "npm-wiremock-standalone",
+  "version": "1.0.0",
+  "description": "Download wire mock and run it as a java process using npm.",
+  "bin": {
+    "wiremock": "index.js"
+  },
+  "scripts": {
+    "install": "node install.js",
+    "postinstall": "node index.js",
+    "start:wiremock": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
